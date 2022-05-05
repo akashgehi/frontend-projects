@@ -1,4 +1,3 @@
-import React from 'react';
 import './style.css';
 import MainHeading from './MainHeading';
 import RideDisplay from './RideDisplay';
