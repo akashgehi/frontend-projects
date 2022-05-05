@@ -1,0 +1,159 @@
+h1,
+h2,
+h3,
+*,
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.topBar {
+  /* width: 84em; */
+  height: 5.25em;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: white;
+  background-color: black;
+  align-items: center;
+}
+.topBar h1 {
+  /* Font-family:   */
+  /* 700, Bold */
+  font-size: 36px;
+  line-height: 42.96px;
+  margin-left: 2.68rem;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.driverName {
+  font-size: 20px !important;
+}
+
+.photo {
+  overflow: hidden;
+  max-width: 2.75em;
+  max-height: 2.75em;
+  border-radius: 50%;
+  background-color: gray;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.rideDisplay {
+  overflow: scroll;
+  background-color: #232323;
+  color: white;
+  height: 85vh;
+  padding: 0 2.68rem;
+}
+*::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+*::-webkit-scrollbar-track {
+  background: ; /* color of the tracking area */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: black; /* color of the scroll thumb */
+  border-radius: 20%/50%;
+  border: 5px solid black;
+}
+
+.rideNavigation {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+
+  background-color: #232323;
+  display: inline-flex;
+  /* display: flex; */
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 5.188rem;
+  color: #cfcfcf;
+  /* padding: 1.938rem ; */
+
+  /* margin:2rem 0; */
+}
+.rideNavigation li {
+  /* justify-self: flex-end; */
+  list-style: none;
+  margin-right: 2.6rem;
+}
+
+.rideNavigation li:hover,
+.rideNavigation li:focus {
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.rideList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.813rem;
+}
+
+.rideCard {
+  /* height:12.275rem; */
+  background-color: rgba(23, 23, 23, 1);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 1.625rem 1.625rem;
+  /* justify-content: space-between; */
+}
+
+.rideCard img {
+  border-radius: 0.313rem;
+}
+.imgPlaceholder {
+  overflow: hidden;
+  background-color: gray;
+  border-radius: 0.313rem;
+  max-height: 9.25rem;
+  max-width: 18.5rem;
+}
+
+.rideInfo {
+  height: 9.25rem;
+  /* background-color: gray; */
+  margin-left: 2.75rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between !important;
+  /* line-height: 160%; */
+}
+.rideInfo li {
+  /* font-family: inter; */
+  color: #cfcfcf;
+}
+.rideInfo a {
+  color: white;
+}
+.roundedPill {
+  /* margin-left: auto; */
+
+  border-radius: 20%/50%;
+  font-size: 0.75rem;
+  background-color: rgba(0, 0, 0, 0.56);
+  align-self: flex-start;
+  margin-left: 1rem;
+  padding: 0.25rem 0.625rem;
+}
+
+.push-left {
+  margin-left: auto;
+}
+
+.selected {
+  color: white;
+  border-bottom: 2px solid white;
+}
